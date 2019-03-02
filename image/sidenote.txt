@@ -1,0 +1,8 @@
+icon to 75% (not canvas)
+hapus and tambah use 5px border
+report use 15px
+kemaskini use 10px
+
+first attempt: 
+borderColor: 93 246 125
+back: 10% black

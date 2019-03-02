@@ -1,0 +1,23 @@
+.box{
+	width: 500px;
+    height: 500px;
+    text-align: center;
+    background-color: white;
+    position: absolute;
+	overflow: auto;
+	border:1px solid black;
+}
+
+.headback{
+	float:center;
+	width:100%;
+}
+
+.comment-input{
+	width: 80%;
+}
+
+.comment-inside{
+	text-align:left;
+	margin-left:5%;
+}

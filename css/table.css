@@ -1,0 +1,25 @@
+
+@font-face {
+    font-family:"Jose";
+    src:url("fonts/JosefinSlab-Bold.ttf");
+}
+
+table {
+    width:80%;
+}
+
+td {
+    padding: 10px 5px;
+    font-family: "Jose";
+}
+
+tr:nth-child(even){
+    background-color: white;
+}
+
+th {
+    background-color: blue;
+    color: white;
+    font-family: "Jose";
+    padding: 10px 5px;
+}

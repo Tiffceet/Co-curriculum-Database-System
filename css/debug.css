@@ -1,0 +1,67 @@
+/* To make sure the nav bar sticks to the edge of screen */
+html, body{
+    margin:0;
+    padding:0;
+}
+
+.nav-bar {
+    /* TEMPORAILY STYLES */
+    /*
+    height: 10%;
+    border: solid black 1px;
+    */
+    /* END OF TEMPORAILY STYLES */
+
+    position:relative;
+    text-align:right;
+    padding: 5px 5px;
+    z-index: 1;
+    margin:0;
+    
+    /* background-color: rgba(0,0,0,0.1); */
+}
+
+.realBody{
+    /* Default margin used by chrome*/
+    margin:8px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+
+.icon{
+    border-radius: 50%;
+    border: solid rgba(192,193,193,1) 2px;
+    width:48px;
+    height:48px;
+    cursor: pointer;
+}
+
+#nav-item-container{
+    position: relative;
+    display: inline-block;
+}
+
+/* Tooltip text */
+#nav-item-container .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+ 
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%; 
+    margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+#nav-item-container:hover .tooltiptext {
+    visibility: visible;
+}
