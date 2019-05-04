@@ -1,5 +1,7 @@
 Project Title: Database Management system for co-curicullar activites' records
+
 Project type: Web Application / Database
+
 Language used: PHP, HTML, CSS, JS
 
 Instruction on getting it to work:
