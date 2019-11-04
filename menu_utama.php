@@ -1,3 +1,4 @@
+<!-- TEST -->
 <?php
 session_start();
 if (!isset($_SESSION['time'])) {
@@ -274,7 +275,7 @@ $size = $count + 1;
 
         </div>
     </div>
-
+	
     <script src="js/menu.js"></script>
     <?php
     // Reopens Tambah Data form if user added a new entry and encounterd a refresh
